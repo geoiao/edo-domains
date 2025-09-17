@@ -1,8 +1,6 @@
 ## Reconstructed Domain Boundaries Data from the End of the Edo Period
 
-![Domain](sample-maps/han-autumn.png)
-![Data](sample-maps/map4.png)
-![PoC](sample-maps/matsumae_v2.png)
+![Domain](sample-maps/han_autumn.png)
 
 This dataset is in the public domain (CC0)
 
