@@ -1,6 +1,6 @@
 ## Reconstructed Domain Boundaries Data from the End of the Edo Period
 
-![Domain](sample-maps/han-autumn)
+![Domain](sample-maps/han-autumn.png)
 ![Data](sample-maps/map4.png)
 ![PoC](matsumae_v2.png)
 
