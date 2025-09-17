@@ -5,10 +5,11 @@
 This dataset is in the public domain (CC0)
 
 **Full dataset:** see the [latest release](../../releases/latest).
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139791.svg)](https://doi.org/10.5281/zenodo.17139791)
 
 ## Citation
-Harrowe, I. (2025). Edo Domains (c. 1862) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Harrowe, I. (2025). Edo Domains (c. 1862): Geospatial dataset (v0.1) [Data set; GeoPackage (GPKG); EPSG:4326]. Zenodo. https://doi.org/10.5281/zenodo.17139791
 
 ------------
 ## Background
@@ -130,7 +131,6 @@ https://www.town.assabu.lg.jp/page/1369.html
 
 (In 1855, the shogunate assumed direct control of Hakodate, along with the northern and the eastern territories of Ezo which had been previously under the authority of the Matsumae clan. In compensation, the Matsumae clan were rewarded holdings in Mutsu province and retained jurisdiction over the western coastal areas of the Oshima peninsula. As this dataset seeks to represent the final configuration of domain boundaries, the territories transferred to the shogunate are not included in the Matsumae holdings.)
 
-()
 
 「1855年、幕府は松前氏の支配下にあった函館および蝦夷地の北部・東部を直轄とした。その代償として、松前氏には陸奥国での領地が与えられ、渡島半島西岸の支配権も保持された。本データセットは最終的な藩境の構成を示すことを目的としているため、幕府直轄に移された領地は松前藩領として含めていない。」
 
