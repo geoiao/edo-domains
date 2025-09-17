@@ -4,6 +4,8 @@
 
 This dataset is in the public domain (CC0)
 
+**Full dataset:** see the [latest release](../../releases/latest).
+
 ------------
 ## Background
 
