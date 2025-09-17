@@ -99,7 +99,7 @@ AID             | area               | テキスト        | ポリゴンのユ�
 
 ## Sources
 
-*Primary data sources used for this project - *
+*Primary data sources used for this project -*
 
 1. Ministry of Agriculture, Forestry and Fisheries (MAFF). “農業集落境界データ [Agricultural Settlement Boundary Data] (2015 農林業センサス基準).” MAFF Statistics
 https://www.maff.go.jp/j/tokei/census/shuraku_data/2015/ma/index.html
