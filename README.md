@@ -48,45 +48,45 @@ Future research on Edo-period domains could investigate village-level kokudaka a
 ------------
 
 ## Data Fields
-edo-domains field metadata
 
-each domain will contain the same fields except for matsumae domain which contains fields from both Rekihaku and MAFF 
+**edo-domains field metadata**  
+each domain will contain the same fields except for matsumae domain which contains fields from both Rekihaku and MAFF
 
-field name (jp) | field name (eng) | data type    | desc | notes |
--
-wkt_geom        | geometry         | multipolygon  | domain or village geometry | EPSG:4326
-fid		        | fid		       | integer64     | unique features id		| generated automatically
-藩名            | han name         | text (string) | official name of the domain (with province if needed) | if multiple han share name then province is added as prefix
-AID             | area             | text (string) | unique polygon id 		| from agricultural polygon proxy
-国ID		    | province id	   | text (string) | unique province id 	| from rekihaku village data
-国名            | province name    | text (string) | name of the province (旧国名) | from rekihaku village data
-郡名            | district name    | text (string) | name of the district 	| from rekihaku village data
-村名            | village name     | text (string) | village name 		| from rekihaku village data
-よみ            | kana reading     | text (string) | Kana transcription of village name | from rekihaku village data, includes some null values
-藩名ローマ字    | han romaji       | text (string) | romanized domain name 	| hepburn-style, from rekihaku village data
-和英併記        | jp-en combined   | text (string) | combined field: <jp>_<en> 	| helpful for lookups
-藩石高(万石)    | kokudaka         | integer       | nominal kokudaka, domain-level, in 万石 (10,000 koku units) | values do not match village
+| field name (jp) | field name (eng) | data type | desc | notes |
+|---|---|---|---|---|
+| wkt_geom | geometry | multipolygon | domain or village geometry | EPSG:4326 |
+| fid | fid | integer64 | unique features id | generated automatically |
+| 藩名 | han name | text (string) | official name of the domain (with province if needed) | if multiple han share name then province is added as prefix |
+| AID | area | text (string) | unique polygon id | from agricultural polygon proxy |
+| 国ID | province id | text (string) | unique province id | from rekihaku village data |
+| 国名 | province name | text (string) | name of the province (旧国名) | from rekihaku village data |
+| 郡名 | district name | text (string) | name of the district | from rekihaku village data |
+| 村名 | village name | text (string) | village name | from rekihaku village data |
+| よみ | kana reading | text (string) | Kana transcription of village name | from rekihaku village data, includes some null values |
+| 藩名ローマ字 | han romaji | text (string) | romanized domain name | hepburn-style, from rekihaku village data |
+| 和英併記 | jp-en combined | text (string) | combined field: `<jp>_<en>` | helpful for lookups |
+| 藩石高(万石) | kokudaka | integer | nominal kokudaka, domain-level, in 万石 (10,000 koku units) | values do not match village |
 
 ---
 
-edo-domains フィールドメタデータ
-
+## edo-domains フィールドメタデータ
 各藩データには同じフィールドが含まれます
 
-フィールド名 (jp) | フィールド名 (eng) | データ型        | 説明 | 備考 |
--
-wkt_geom        | geometry           | マルチポリゴン    | 藩または村のジオメトリ		 | EPSG:4326
-fid             | fid                | 整数64        | ユニークなフィーチャーID	 	 | 自動生成
-藩名            | han name           | テキスト        | 藩の正式名称（必要に応じて国名付き） | 同名の藩がある場合は国名を接頭に追加
-AID             | area               | テキスト        | ポリゴンのユニークID		 | 農業集落境界データより
-国ID            | province id        | テキスト        | 国のユニークID		 | 国立歴史民俗博物館「旧高旧領取調帳データベース」より
-国名            | province name      | テキスト        | 国の名称（旧国名）		 | 国立歴史民俗博物館「旧高旧領取調帳データベース」より
-郡名            | district name      | テキスト        | 郡の名称			 | 国立歴史民俗博物館「旧高旧領取調帳データベース」より
-村名            | village name       | テキスト        | 村の名称			 | 国立歴史民俗博物館「旧高旧領取調帳データベース」より
-よみ             | kana reading       | テキスト        | 村名の仮名表記		 | 国立歴史民俗博物館「旧高旧領取調帳データベース」より、一部はNULL値
-藩名ローマ字      | han romaji         | テキスト        | 藩名のローマ字表記 		 | ヘボン式、国立歴史民俗博物館「旧高旧領取調帳データベース」より
-和英併記         | jp-en combined     | テキスト        | `<jp>_<en>` の結合フィールド	 | ルックアップ用に便利
-藩石高(万石)     | kokudaka           | 整数          | 藩の石高（藩単位、単位は万石 = 10,000石） | 村単位ではなく藩単位の値
+| フィールド名 (jp) | フィールド名 (eng) | データ型 | 説明 | 備考 |
+|---|---|---|---|---|
+| wkt_geom | geometry | マルチポリゴン | 藩または村のジオメトリ | EPSG:4326 |
+| fid | fid | 整数64 | ユニークなフィーチャーID | 自動生成 |
+| 藩名 | han name | テキスト | 藩の正式名称（必要に応じて国名付き） | 同名の藩がある場合は国名を接頭に追加 |
+| AID | area | テキスト | ポリゴンのユニークID | 農業集落境界データより |
+| 国ID | province id | テキスト | 国のユニークID | 国立歴史民俗博物館「旧高旧領取調帳DB」より |
+| 国名 | province name | テキスト | 国の名称（旧国名） | 同上 |
+| 郡名 | district name | テキスト | 郡の名称 | 同上 |
+| 村名 | village name | テキスト | 村の名称 | 同上 |
+| よみ | kana reading | テキスト | 村名の仮名表記 | 一部NULL |
+| 藩名ローマ字 | han romaji | テキスト | 藩名のローマ字表記 | ヘボン式 |
+| 和英併記 | jp-en combined | テキスト | `<jp>_<en>` の結合フィールド | ルックアップ用 |
+| 藩石高(万石) | kokudaka | 整数 | 藩の名目石高（万石＝10,000石） | 村単位とは一致しない場合あり |
+
 
 ------------
 
