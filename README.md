@@ -4,6 +4,7 @@
 
 This dataset is in the public domain (CC0)
 
+**Sample GPKG:** `sample-data/Akita_出羽秋田藩.gpkg`
 **Full dataset:** see the [latest release](../../releases/latest).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139791.svg)](https://doi.org/10.5281/zenodo.17139791)
