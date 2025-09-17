@@ -54,10 +54,10 @@ each domain will contain the same fields except for matsumae domain which contai
 
 | field name (jp) | field name (eng) | data type | desc | notes |
 |---|---|---|---|---|
-| wkt_geom | geometry | multipolygon | domain or village geometry | EPSG:4326 |
+| wkt_geom | wkt_geom | multipolygon | domain or village geometry | EPSG:4326 |
 | fid | fid | integer64 | unique features id | generated automatically |
 | 藩名 | han name | text (string) | official name of the domain (with province if needed) | if multiple han share name then province is added as prefix |
-| AID | area | text (string) | unique polygon id | from agricultural polygon proxy |
+| AID | AID | text (string) | unique polygon id | from agricultural polygon proxy |
 | 国ID | province id | text (string) | unique province id | from rekihaku village data |
 | 国名 | province name | text (string) | name of the province (旧国名) | from rekihaku village data |
 | 郡名 | district name | text (string) | name of the district | from rekihaku village data |
@@ -74,10 +74,10 @@ each domain will contain the same fields except for matsumae domain which contai
 
 | フィールド名 (jp) | フィールド名 (eng) | データ型 | 説明 | 備考 |
 |---|---|---|---|---|
-| wkt_geom | geometry | マルチポリゴン | 藩または村のジオメトリ | EPSG:4326 |
+| wkt_geom | wkt_geom | マルチポリゴン | 藩または村のジオメトリ | EPSG:4326 |
 | fid | fid | 整数64 | ユニークなフィーチャーID | 自動生成 |
 | 藩名 | han name | テキスト | 藩の正式名称（必要に応じて国名付き） | 同名の藩がある場合は国名を接頭に追加 |
-| AID | area | テキスト | ポリゴンのユニークID | 農業集落境界データより |
+| AID | AID | テキスト | ポリゴンのユニークID | 農業集落境界データより |
 | 国ID | province id | テキスト | 国のユニークID | 国立歴史民俗博物館「旧高旧領取調帳DB」より |
 | 国名 | province name | テキスト | 国の名称（旧国名） | 同上 |
 | 郡名 | district name | テキスト | 郡の名称 | 同上 |
