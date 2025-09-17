@@ -5,6 +5,10 @@
 This dataset is in the public domain (CC0)
 
 **Full dataset:** see the [latest release](../../releases/latest).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139791.svg)](https://doi.org/10.5281/zenodo.17139791)
+
+## Citation
+Harrowe, I. (2025). Edo Domains (c. 1862) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 
 ------------
 ## Background
