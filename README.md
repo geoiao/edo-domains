@@ -91,9 +91,9 @@ each domain will contain the same fields except for matsumae domain which contai
 ------------
 
 ## How to Use
-1. Download the dataset (`.gpkg` or `.geojson`).  
+1. Download the dataset.  
 2. Open in QGIS, ArcGIS, or any GIS software that supports GeoPackage.  
-3. Use attribute filtering to explore specific domains or provinces.  
+3. Use attribute filtering to explore specific domains.  
 
 (The compressed file containing all gpkgs is 155MB)
 
