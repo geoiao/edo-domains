@@ -11,7 +11,7 @@ This dataset is in the public domain (CC0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139791.svg)](https://doi.org/10.5281/zenodo.17139791)
 
 ## Citation
-Harrowe, I. (2025). Edo Domains (c. 1862): Geospatial dataset (v0.1) [Data set; GeoPackage (GPKG); EPSG:4326]. Zenodo. https://doi.org/10.5281/zenodo.17139791
+iao (2025). Edo Domains (c. 1862): Geospatial dataset (v0.1) [Data set; GeoPackage (GPKG); EPSG:4326]. Zenodo. https://doi.org/10.5281/zenodo.17139791
 
 ------------
 ## Background
